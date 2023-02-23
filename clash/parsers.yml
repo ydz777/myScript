@@ -1,0 +1,5 @@
+parsers:
+  - reg: .*
+    remote:
+      url: http://dev.mxxcv.com/parser.js
+      cache: false # 默认为false，指示是否对重复下载此预处理代码使用缓存
