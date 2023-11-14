@@ -5,7 +5,7 @@
 #!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/zjbj.png
 
 [Script]
-生意参谋获取cookie=type=http-response,pattern=https:\/\/shattrath-config\.taobao\.com\/qianniu,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zjbj.js
+生意参谋获取cookie=type=http-response,pattern=https:\/\/shattrath-config\.taobao\.com\/qianniu,requires-body=1,script-path=https://raw.githubusercontent.com/ydz777/myScript/master/sycm_ck.js
 [MITM]
 hostname = %APPEND% shattrath-config.taobao.com
 
