@@ -1,0 +1,11 @@
+#!name=生意参谋获取cookie
+#!desc=生意参谋获取cookie
+#!homepage=https://yfamily.ml
+#!author=89996462
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/zjbj.png
+
+[Script]
+生意参谋获取cookie=type=http-response,pattern=https:\/\/shattrath-config\.taobao\.com\/qianniu,requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zjbj.js
+[MITM]
+hostname = %APPEND% shattrath-config.taobao.com
+
